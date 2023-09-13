@@ -3,10 +3,11 @@
 This repository provides reproducible benchmarking experiments of '_**PertCF: A Perturbation-Based Counterfactual Generation Approach**_' paper and open-source implementation of the proposed PertCF method.
 
 Todo: Add method descr. and image
+
 Todo: Add the paper and citation info
 
 ## Instructions to run the contribution
-**Step 1:** clone the repository
+**Step 1:** Clone the repository
 
 **Step 2:** Build myCBR API
 
@@ -32,9 +33,9 @@ Once the installation is done and the API is running, the API will be accessible
 ![image](https://user-images.githubusercontent.com/22470440/186938749-544d7a95-c8dc-4b6c-be60-62d1de45b03b.png)
 
 
-### Running the experiements
+**Step 5:** Run the experiments
 
-#### Necessary files to run the Experiments
+**Necessary files to run the experiments**
 
 To run the experiments we provide 'SouhtGermanCredit' and 'UserKnowledgeModeling' folders with a number of files under the 'Experiments' folder. 
 The folders consist of experiments and the following folders to reproduce the experiments:
