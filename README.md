@@ -2,6 +2,8 @@
 
 This repository provides reproducible benchmarking experiments of '_**PertCF: A Perturbation-Based Counterfactual Generation Approach**_' paper and open-source implementation of the proposed PertCF method.
 
+Todo: Add method descr. and image
+Todo: Add the paper and citation info
 
 ## Instructions to run the contribution
 **Step 1:** clone the repository
@@ -34,13 +36,23 @@ Once the installation is done and the API is running, the API will be accessible
 
 #### Necessary files to run the Experiments
 
-[//]: # ()
-[//]: # (To run our experiments we provide 'WineQuality' and 'Depression' folders with a number of files. The folders consists of experiments and the following folders to reproduce the experiments:)
+To run the experiments we provide 'SouhtGermanCredit' and 'UserKnowledgeModeling' folders with a number of files under the 'Experiments' folder. 
+The folders consist of experiments and the following folders to reproduce the experiments:
 
-[//]: # (- project/: contains project files that are modelled for the experiments. )
+- Data/: contains .csv file/s needed for the experiments. 
 
-[//]: # (- data/: contains the train and test .csv files needed for the experiments. Those are created based on the given datasets. They are the results after we conducted the first set of experiments to find a good split of the provided data. )
+- Model/: contains the .pkl files for the BB models used in the experiments.
 
-[//]: # (- model/: contains the .pkl files for the BB models used in the experiments.)
+- Output/: contains result files of the experiments.
 
-[//]: # (- shap/: contains the shap values per class .csv files needed to create the global similarity functions of the CBR agents.)
+- temp_files/: contains all other files that are generated and/or used during experimenting.
+
+'SouhtGermanCredit' and 'UserKnowledgeModeling' folders also include reproducible and adaptable ordered set of experiments as ipython notebooks. 
+
+This repository also includes followings:
+
+- myCBR_projects/: contains myCBR project files that are modelled for the experiments. 
+
+- mycbr_py_api.py: contains myCBR-rest API connection and calls
+
+- PertCF.py: contains Explainer Class that implements PertCF including experimental setup
