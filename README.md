@@ -2,9 +2,7 @@
 
 This repository provides reproducible benchmarking experiments of '_**PertCF: A Perturbation-Based Counterfactual Generation Approach**_' paper and open-source implementation of the proposed PertCF method.
 
-Todo: Add method descr. and image
-
-Todo: Add the paper and citation info
+<img src="https://github.com/b-bayrak/PertCF-Explainer/assets/60686534/14ba09eb-a15d-49cf-816e-02ebd4a4ff5f" width="500px">
 
 ## Instructions to run the contribution
 **Step 1:** Clone the repository
