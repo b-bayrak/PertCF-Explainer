@@ -4,6 +4,8 @@ This repository provides reproducible benchmarking experiments of '_**PertCF: A 
 
 <img width="500" alt="image" src="https://github.com/b-bayrak/PertCF-Explainer/assets/60686534/f588833c-1a66-4f0a-924f-ac9cf745644d">
 
+PertCF is an iterative perturbation-based counterfactual generation method that combines the strengths of perturbation-based counterfactual generation and feature attribution methods to generate high-quality, stable, and interpretable counterfactual explanations.
+
 
 ## Instructions to run the contribution
 **Step 1:** Clone the repository
